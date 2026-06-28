@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "required": [
+    "responseCode",
+    "products"
+  ],
+  "properties": {
+    "responseCode": {
+      "type": "integer"
+    },
+    "products": {
+      "type": "array"
+    }
+  }
+}
